@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background: url(background.jpg) ;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+.Container{
+    margin-top: 100px;
+    position: relative;
+    width: 450px;
+    height: auto;
+    background-color:rgb(240, 240, 240);
+    /*background: rgb(204, 192, 192);*/
+    border-radius: 10px;
+}
+.label{
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.login-form{
+    padding: 20px 50px;
+}
+.email-input-area{
+    padding-top: 10px;
+}
+.password-area{
+    padding-top: 20px;
+}
+#email-input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#pass-input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button{
+    padding:20px;
+    text-align: center;
+    
+    
+}
+
+#submit{
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: linear-gradient(45deg, #0250c5, #d43f8d);
+}
+#login
+{
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}
+.error{
+    display:none;
+    text-align: left;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+    color:red;
+}
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
